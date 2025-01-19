@@ -181,6 +181,9 @@ body{
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px;
 
     opacity:0;
     transition: all 0.2s ease;
@@ -226,7 +229,7 @@ body{
         transform: rotate(0deg);
     }
     to{
-        /* transform: rotate(-40deg); */
+        transform: rotate(-40deg);
         transform: rotate(-40deg) translate(3px, -10px);
     }
 }
